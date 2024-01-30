@@ -85,7 +85,8 @@ console.log("2번 문제========================================================
             } else if (pw_input.value == ""){
                 error.innerHTML="비밀번호를 입력해주세요"
             } else if(id_input.value == login_list[0].id && pw_input.value == login_list[0].pw ){
-                window.alert(`환영합니다. ${id_input.login_list.id[0]}님`)
+                // window.alert(`환영합니다. ${id_input.value.login_list.id[0]}님`)
+                window.alert("로그인 성공하였습니다.")
             } else {
                 error.innerHTML="아이디 비밀번호를 잘못 입력하셨습니다."
                 id_input.value = ""
